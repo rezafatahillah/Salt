@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/newsImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/noimage" />
+
+    <TextView
+        android:id="@+id/newsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/newsDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/newsPublishedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Published Date"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/newsContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Content"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:autoLink="web"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/readMoreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read More"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
